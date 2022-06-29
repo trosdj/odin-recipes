@@ -7,6 +7,8 @@
     font-size: 40px;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .center {
@@ -26,12 +28,25 @@ button {
     background-color: #221f1fde;
     color: #ffffff;
     font-size: 20px;
+    margin: 10px;
   }
 
 html {
     background-color: #221f1f18;
 }
 
-.desc {
-    text-align: center;
+.float-container {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    grid-gap: 5px;
+    background-color: #221f1f11;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
