@@ -4,54 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Apple Crisp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <h1>Apple Crisp</h1>
+  <nav class="nav">
+    <div class="container">
 
-  <img src="../images/apple_crisp.jpg" alt="A bowl of apple crisp with vanilla ice cream">
+      <ul class="nav__list row">
+        <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="./lemon-meringue.html" class="nav__link">Lemon Meringue Pie</a></li>
+        <li class="nav__item"><a href="./apple-crisp.html" class="nav__link">Apple Crisp</a></li>
+        <li class="nav__item"><a href="./strawberry-shortcake.html" class="nav__link">Strawberry Shortcake</a></li>
+      </ul>
 
-  <h2>Description:</h2>
-  <p>
-    A simple and delicious fall dessert. A blend of cinnamon and apple that tastes
-    wondeful with a scoop of vanilla ice cream.
-  </p>
+    </div>
+  </nav>
 
-  <h2>Ingredients:</h2>
-  <ul>
-    <li>10c peeled, cored, and sliced apples</li>
-    <li>1c white sugar</li>
-    <li>1tb all-purpose flour</li>
-    <li>1tsp ground cinnamon</li>
-    <li>3tb water</li>
-    <li>1c quick-cooking oats</li>
-    <li>1c all-purpose flour</li>
-    <li>1c packed brown sugar</li>
-    <li>1/4tsp baking powder</li>
-    <li>1/4tsp baking soda</li>
-    <li>1/2c melted butter</li>
-  </ul>
+  <header class="header">
+    <div class="container">
+      <div class="header__text">
+        <p class="header__subtitle">Just Dessert Reciepes</p>
+        <h1 class="header__title">Apple Crisp</h1>
+      </div>
+    </div>
+  </header>
 
-  <h2>Directions</h2>
-  <ol>
-    <li>
-      Step 1: Gather all ingredients. Preheat the oven to 350 degrees F (175 degrees C).
-    </li>
-    <li>
-      Step 2: Place sliced apples in a 9x13-inch baking dish. Mix white sugar, 1 tablespoon 
-      flour, and cinnamon together; sprinkle over apples. Pour water evenly over apples. 
-    </li>
-    <li>
-      Step 3: Combine oats, 1 cup flour, brown sugar, baking powder, and baking soda in a 
-      large bowl. Add melted butter and mix with a fork until crumbly; sprinkle evenly over 
-      apple mixture.
-    </li>
-    <li>
-      Step 4: Bake in the preheated oven until top is golden brown and apples are bubbling 
-      around the edges, about 45 minutes.
-    </li>
-    <li>
-      Step 5: Serve and enjoy!
-    </li>
-  </ol>
+  <main>
+    <div class="description">
+      <p class="container">
+        A simple and delicious fall dessert. <br> A blend of cinnamon and apple that tastes
+        wondeful with a scoop of vanilla ice cream.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <img src="../images/apple_crisp.jpg" alt="A bowl of apple crisp with vanilla ice cream" class="recipe__img">
+        <section class="ingredients">
+          <h2 class="content__title">Ingredients:</h2>
+          <br>
+          <ul class="ingredients__list">
+            <li>10c peeled, cored, and sliced apples</li>
+            <li>1c white sugar</li>
+            <li>1tb all-purpose flour</li>
+            <li>1tsp ground cinnamon</li>
+            <li>3tb water</li>
+            <li>1c quick-cooking oats</li>
+            <li>1c all-purpose flour</li>
+            <li>1c packed brown sugar</li>
+            <li>1/4tsp baking powder</li>
+            <li>1/4tsp baking soda</li>
+            <li>1/2c melted butter</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <section class="directions">
+      <div class="container">
+        <h2 class="directions__title">Directions:</h2>
+        <ol class="directions_list">
+          <li>
+            <span class="accent">Step 1:</span> Gather all ingredients. Preheat the oven to 350 degrees F (175 degrees C).
+          </li>
+          <li>
+            <span class="accent">Step 2:</span> Place sliced apples in a 9x13-inch baking dish. Mix white sugar, 1 tablespoon
+            flour, and cinnamon together; sprinkle over apples. Pour water evenly over apples.
+          </li>
+          <li>
+            <span class="accent">Step 3:</span> Combine oats, 1 cup flour, brown sugar, baking powder, and baking soda in a
+            large bowl. Add melted butter and mix with a fork until crumbly; sprinkle evenly over
+            apple mixture.
+          </li>
+          <li>
+            <span class="accent">Step 4:</span> Bake in the preheated oven until top is golden brown and apples are bubbling
+            around the edges, about 45 minutes.
+          </li>
+          <li>
+            <span class="accent">Step 5:</span> Serve and enjoy!
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
